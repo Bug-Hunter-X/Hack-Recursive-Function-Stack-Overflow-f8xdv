@@ -1,0 +1,4 @@
+# Hack Recursive Function Stack Overflow
+This repository demonstrates a common error in recursive functions: the lack of a proper base case that handles all possible inputs, leading to stack overflow. The `foo` function calculates the factorial, but it only handles non-negative inputs.  Providing a negative input will cause infinite recursion and a stack overflow.
+
+The solution demonstrates how to add a check for negative inputs and handle them appropriately, preventing the stack overflow.  This example highlights the importance of carefully considering all possible input scenarios when designing recursive functions.
